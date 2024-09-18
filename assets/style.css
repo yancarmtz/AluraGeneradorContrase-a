@@ -135,5 +135,16 @@ h1 {
     font-family: 'Inter', sans-serif;
 }
 
+.mensaje {
+    color: #18d0e8;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 38px;  
+}
+
+
 
 
