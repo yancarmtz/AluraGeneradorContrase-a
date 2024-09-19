@@ -3,6 +3,8 @@ let boton = document.getElementById("generar");
 let contraseña = document.getElementById("contrasena");
 let botonLimpiar = document.getElementById("limpiar");
 
+let mensajeDeSeguridad = document.getElementById("mensaje");
+
 const cadenaCaracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"; 
 
 function generar() {
@@ -25,8 +27,6 @@ function generar() {
     
     }
     contraseña.value = password;
-
-    let mensajeDeSeguridad = document.getElementById("mensaje");
 
     function validarSeguridad(password) {
         let tieneMayusculas = false;
@@ -75,16 +75,5 @@ function generar() {
 function limpiar() {
     document.getElementById("cantidad").value = '';
     document.getElementById("contrasena").value = '';
+    mensajeDeSeguridad.innerHTML = ' ';
 }
-
-
-
-
-
-
-
-
-
-
-
-
