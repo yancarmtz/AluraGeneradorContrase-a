@@ -16,6 +16,9 @@ Al darle clic al boton limpiar se limpia el cmapo cantidad y contraseña:
 
 Se muestran los campos mencionados anteriormente vacios:
 
+![image](https://github.com/user-attachments/assets/0d419b42-70dd-4332-b6f3-f5ecf349afda)
+
+
 
 
 
